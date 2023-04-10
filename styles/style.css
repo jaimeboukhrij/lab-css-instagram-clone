@@ -1,10 +1,172 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("../images/bgtile.png");
+  background-repeat: repeat-x;
+  
+
+  
+}
+
+
+
+.second-div{
+  
+  width: 60%;
+  
+  
+}
+
+img{
+  width: 100px;
+}
+
+.general-section{
+  display: flex;
+  margin: 0px auto;
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 20%;
+  
+}
+
+.first-div{
+  margin-right: 8%;
+  
+}
+
+.first-div>img{
+  width: 300PX;
+  height: 500px;
+}
+
+.top-second-div{
+  display: flex;
+
+}
+
+.insta-log{
+  width: 290px;
+  height: 70px;
+  margin-right: 15%;
+}
+
+.login{
+  display: flex;
+  border: 1px solid #06365f;
+  border-radius: 3px;
+  background-color:  #1c5380;
+  height: 33px;
+  width:90px;
+  margin-top: 2%;
+ 
+}
+
+.login>img{
+  width: 25px;
+  height: 23px;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 3%;
+}
+
+.login>p{
+ 
+  margin-top: 6%;
+  margin-left:3% ;
+  color: white;
+  
+ 
+}
+
+.fondo{
+  background-color:transparent #1c5380;
+ height: 100px;
+width: 100%;}
+
+.background-div{
+  
+  width: 75%;
+  background-image: url("../images/frame.png");
+  background-size: 100% 100%;
+}
+
+article{
+ 
+
+  width: 90%;
+  height: 80%;
+  padding: 5%;
+padding-top: 0%;
+padding-bottom: 0%;
+}
+
+article>h3{
+  margin-left: 1%;
+  padding-top: 5%;
+  color:#06365f;
+  font-size: 25px;
+}
+
+article>p{
+ 
+  margin: 10px auto;
+  font-size: 15px;
+  text-align: justify;
+  color: #1c5380;
+
+}
+
+.bottom-second-div{
+  display: flex;
+ 
+  margin-top: 10%;
+}
+
+.bottom-second-div>img{
+  width: 165px;
+  height: 55px;
+  margin:auto
+}
+
+
+.footer{
+
+
+  margin: auto;
+  margin-top: 5%;
+  width: 46%;
+  font-size: 12PX;
+
+  
+}
+
+.list-footer{
+  display: flex;
+}
+
+.list-footer>li{
+  list-style: none;
+
+  margin-right: 3%;
+  color:#06365f;
+  font-weight: bold;
+}
+
+.list-footer>li>a{
+  text-decoration: none;
+}
+
+.ultimo{
+  color: grey;
+}
+
+
+
+
+
+.background{
+  background-image: url(/images/bgtile.png);
+  width: 200px;
 }
